@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+li{
+    list-style: none;/*retira as bolinhas do item*/
+    display: inline;
+    margin-right: 40px;
+}
+.cabeçalho{
+    background-color:  #bb76cc;
+    height: 103px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu li>a {
+    color:rgb(125, 30, 160);
+    font-size: 20px;
+    text-decoration: none;
+}
+.perfil {
+    background: #EDEAEA;
+    height: 579px;
+    text-align: center;
+    color: #8d2dba;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.descriçao {
+    font-size: 14px;
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+}
+img {
+    margin-top: 48px;
+    margin-bottom: 26px;
+    width: 150px;
+    height: 150px;
+}
+.profissao {
+    color: #c829c8;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+.container-artigo-formaçao {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    max-width: 450px;
+}
+.artigo-formaçao {
+    display: flex;
+    flex-direction:column;
+    margin: 100px;
+    margin-bottom: 100px;
+    
+}
+.titulo-seçao {
+    font-size: 24px;
+    color:darkmagenta;
+    margin-bottom: 50px; 
+
+}
+.lista-formaçao {
+    padding-left: 10px;
+}
+.titulo-formaçao {
+    font-size: 16px;
+    color: darkorchid;
+    font-weight: 700;
+}
+.link-formaçao {
+    color: blueviolet;
+    font-size: 14px;
+}
+.descriçao-formaçao {
+    font-size: 14px;
+    margin-top: 8px;
+    color:rgb(166, 112, 216)
+}
+.container-artigo-projetos {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    max-width: 450px
+}
+.artigo-projetos {
+    display: flex;
+    flex-direction:column;
+    margin: 100px;
+    margin-bottom: 100px;
+}
+.titulo-seçao {
+    font-size: 20px;
+    color:darkmagenta;
+    margin-bottom: 50px;
+}
+.lista-projetos {
+    padding-left: 30px;
+}
+.link-projetos{
+    color: blueviolet;
+    font-size: 15px;
+}
+.descriçao-projetos {
+    font-size: 14px;
+    margin-top: 8px;
+    color:darkslateblue
+    
+}
+.projeto-BD {
+    color:rgb(81, 59, 129);
+    font-size: 14px;
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300px;
+    line-height: normal; 
+}
+.rodape {
+    display: flex;
+    align-items: center;
+    background-color:rgb(180, 135, 203) ;
+    height:300px ;
+}
+.lista-rodape li {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 28px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.container-rodape {
+    margin-left: 60px;
+    
+}
+   
